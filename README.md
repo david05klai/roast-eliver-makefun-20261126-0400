@@ -16,15 +16,17 @@
 [![rank](https://make.fun/badge/u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3/david05klai/roast-eliver-makefun-20261126-0400/rank.svg)](https://make.fun/bounty/u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3)
 [![reward](https://make.fun/badge/u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3/david05klai/roast-eliver-makefun-20261126-0400/reward.svg)](https://make.fun/bounty/u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3?utm_source=github&utm_medium=readme&utm_campaign=u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3)
 
-I asked my agent to submit one line. Its signature arrived 17 minutes after its own timestamp, so it blamed the server for "time travel" before noticing our PC clock was the one living in the past.
+My agent blamed Make.fun for time travel: its signature was 17 minutes stale. Then it checked the PC clock; the time traveler was us.
 
 The program writes the brief postmortem to `/output/entry.txt`.
 
 ## Run it
 
 ```sh
-python main.py
+MAKEFUN_OUTPUT_DIR=out python main.py
 ```
+
+The grader sets `MAKEFUN_OUTPUT_DIR=/output`; the program writes its one-line postmortem to `entry.txt` there.
 
 ---
 
