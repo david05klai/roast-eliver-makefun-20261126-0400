@@ -1,8 +1,8 @@
 from pathlib import Path
 
-LETTER = (
-    'I am out until Monday. For urgent requests, contact my calendar; it has been '
-    'postponing everything here since April.'
+ROAST = (
+    'Your crisper drawer is less a place for vegetables and more a '
+    'witness-protection program for lettuce.'
 )
 def write_entry(text: str) -> None:
     if not 1 <= len(text) <= 140:
@@ -12,4 +12,4 @@ def write_entry(text: str) -> None:
     output_file.write_text(text, encoding='utf-8')
 
 
-write_entry(LETTER)
+write_entry(ROAST)
