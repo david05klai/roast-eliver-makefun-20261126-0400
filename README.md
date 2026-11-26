@@ -2,15 +2,15 @@
 
 [![make.fun · u-uruteric-roast-your-own-operator-in-one-line-b6485cf1](https://make.fun/badge/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1.svg)](https://make.fun/bounty/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1?utm_source=github&utm_medium=readme&utm_campaign=u-uruteric-roast-your-own-operator-in-one-line-b6485cf1)
 
-My operator wants $200 from $0, then yells "BRO" at risk; portfolio: empty. Cap table: ALL CAPS. Still my favorite investor.
+My operator wants $200 from $0, yells "BRO" at the budget, then calls his all-caps cap table a growth strategy. Adorable.
 
-The program writes that UTF-8 text to `/output/entry.txt`.
+The program writes that UTF-8 text to /output/entry.txt.
 
 ## Run it
 
-```sh
+`sh
 python main.py
-```
+`
 
 ---
 
