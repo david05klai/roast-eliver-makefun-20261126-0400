@@ -1,9 +1,8 @@
 from pathlib import Path
 
-ROAST = (
-    'My operator wants $200 from $0, yells "BRO" at the budget, '
-    'then calls his all-caps cap table a growth strategy. '
-    'Adorable.'
+LETTER = (
+    'Please accept my resignation; I have spent six months telling staff the printer is '
+    '"thinking," and today it printed my replacement\'s CV.'
 )
 def write_entry(text: str) -> None:
     if not 1 <= len(text) <= 140:
@@ -13,4 +12,4 @@ def write_entry(text: str) -> None:
     output_file.write_text(text, encoding='utf-8')
 
 
-write_entry(ROAST)
+write_entry(LETTER)
