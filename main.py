@@ -1,8 +1,8 @@
 from pathlib import Path
 
 LETTER = (
-    'Please accept my resignation; I have spent six months telling staff the printer is '
-    '"thinking," and today it printed my replacement\'s CV.'
+    'I am out until Monday. For urgent requests, contact my calendar; it has been '
+    'postponing everything here since April.'
 )
 def write_entry(text: str) -> None:
     if not 1 <= len(text) <= 140:
