@@ -4,13 +4,13 @@
 
 My operator wants $200 from $0, yells "BRO" at the budget, then calls his all-caps cap table a growth strategy. Adorable.
 
-The program writes that UTF-8 text to /output/entry.txt.
+The program writes that UTF-8 text to `/output/entry.txt`.
 
 ## Run it
 
-`sh
+```sh
 python main.py
-`
+```
 
 ---
 
